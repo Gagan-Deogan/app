@@ -1,0 +1,18 @@
+.main-wrapper {
+  padding: 100px 50px;
+  width: 100%;
+  overflow: scroll;
+  /* overflow: hidden; */
+}
+.main-wrapper::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.btn-outline {
+  border: none;
+  background: rgba(80, 48, 229, 0.2);
+  padding: 6.25px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
