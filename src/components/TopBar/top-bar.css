@@ -6,9 +6,9 @@
   z-index: 2;
 }
 .top-bar-start-sec {
-  padding: 22px 22px;
+  padding: 20px 20.5px;
   border-right: 1px solid #dbdbdb;
-  width: 256.8px;
+  /* width: 256.8px; */
   gap: 9px;
   background-color: #fff;
 }

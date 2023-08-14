@@ -14,21 +14,12 @@ export const TopBar = () => {
   return (
     <nav className="top-bar-container flex-row ">
       <div className="top-bar-start-sec space-between">
-        <div className="flex-row gap-8">
           <img src={appLogo} alt="" />
-          <h1 className="header-heading">Project M.</h1>
-        </div>
-        <img src={expand} alt="" />
       </div>
 
       <div className="top-bar-end-sec space-between">
         <div className="search-bar-container">
-          <img src={search} alt="" className="search-icon" />
-          <input
-            type="text"
-            className="top-bar-search"
-            placeholder="Search For anything..."
-          />
+       
         </div>
 
         <div className=" flex-row gap-24">

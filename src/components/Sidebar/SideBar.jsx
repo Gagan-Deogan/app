@@ -13,28 +13,63 @@ export const SideBar = () => {
       <ul className="sidebar-options">
         <li className="sidebar-item">
           <img src={home} alt="" />
-          Home
         </li>
         <li className="sidebar-item">
           <img src={message} alt="" />
-          Messages
         </li>
         <li className="sidebar-item">
           <img src={task} alt="" />
-          Task
         </li>
         <li className="sidebar-item">
           <img src={profile} alt="" />
-          Members
         </li>
         <li className="sidebar-item">
           <img src={setting} alt="" />
-          Settings
         </li>
       </ul>
       <div className="divider-hr"></div>
 
-      <div className="sidebar-heading space-between">
+      <ul className="sidebar-options">
+        <li className="sidebar-item">
+          <img src={home} alt="" />
+        </li>
+        <li className="sidebar-item">
+          <img src={message} alt="" />
+        </li>
+        <li className="sidebar-item">
+          <img src={task} alt="" />
+        </li>
+        <li className="sidebar-item">
+          <img src={profile} alt="" />
+        </li>
+        <li className="sidebar-item">
+          <img src={setting} alt="" />
+        </li>
+      </ul>
+      <div className="divider-hr"></div>
+
+      <ul className="sidebar-options">
+        <li className="sidebar-item">
+          <img src={home} alt="" />
+        </li>
+        <li className="sidebar-item">
+          <img src={message} alt="" />
+        </li>
+        <li className="sidebar-item">
+          <img src={task} alt="" />
+        </li>
+        <li className="sidebar-item">
+          <img src={profile} alt="" />
+        </li>
+        <li className="sidebar-item">
+          <img src={setting} alt="" />
+        </li>
+      </ul>
+      <div className="divider-hr"></div>
+
+      
+
+      {/* <div className="sidebar-heading space-between">
         MY PROJECTS
         <img src={add} alt="" />
       </div>
@@ -70,7 +105,7 @@ export const SideBar = () => {
           thoughts with your peers.
         </p>
         <button className="btn-ghost">Write a message</button>
-      </div>
+      </div> */}
     </div>
   );
 };
